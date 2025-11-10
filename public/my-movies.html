@@ -1,0 +1,151 @@
+<!-- Scroll down for a sample solution -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <style>
+        html{
+            background-color: #FBFADA;
+        }
+        h1{
+            margin: 0px;
+            padding: 0px;
+            color: #FF8911; 
+            font-size: 40px;
+        }
+        h2{
+            margin: 0px;
+            padding: 0px;
+            color: #FF8911; 
+            font-size: 30px;
+        }
+        .head-title{
+            position: relative;
+            margin-left: 25%;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+            width: 50%;
+            height: 80px;
+        }
+        .video-container{
+            margin-left: 20%;
+            top: 60px;
+            margin-bottom: 60px;
+            width: 55%;
+            height: auto;
+            text-align: center;
+            padding: 0px;
+            font-size: large;
+          
+        }
+        #first-video{
+            width: 100%;
+            height: 100%; 
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        h3{
+            font-size: 30px;
+            text-transform: uppercase;
+            padding: 0px;
+            margin: 0px;
+            color: blueviolet;
+        }
+        p{
+            text-align: center;
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: 50px   ;
+            font-style: normal;
+            font-size: 30px;
+        }
+        a{
+            color: black;
+        }
+        button{
+            position: absolute;
+            background-color: antiquewhite;
+            top: 5%;
+            height: 50px;
+            width: 50px;
+            border: 0px antiquewhite;
+            border-radius: 50px ;
+            image-orientation: flip;
+            padding: 0px;
+        }
+        button:hover{
+            background-color: #FF8911;
+        }
+        h3{
+            margin: 0px;
+            padding: 0px;
+            font-family: "Alfa Slab One", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        video{
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head-title">
+        <h1>The Best Movies of all time</h1>
+        <h2>My top 5 movies.</h2>
+    </div>
+    <a href="../index.html.html">
+        <button><img style="width: 50px; height: 50px; margin: 0px; padding: 0px;" src="../assets/Image/back-icon.png"></button>
+    </a>
+<hr/>
+    <div style=" margin-top: 40px;" class="video-container">
+        <h3>Trolls</h3>
+        <video controls id="first-video">
+            <source src="../assets/video/trolls.mp4" type="video/mp4">
+        </video>
+        <p>This is my favourite anime. I love the beautiful images and <br/>
+        its animation, music, and voice acting.</p>
+    </div>
+    
+    <div class="video-container">
+        <h3>Fast & Furious</h3>
+        <video controls width="500" id="first-video">
+            <source src="../assets/video/F&F9.mp4" type="video/mp4">
+        </video>
+    <p>Really cool Action movie.</p>
+</div>
+    
+<div class="video-container">
+    <h3>Moana</h3>
+        <video controls id="first-video">
+            <source src="../assets/video/Moana.mp4" type="video/mp4">
+        </video>
+    <p>"Moana" has captivated audiences worldwide with its beautiful animation, <br/>
+    memorable characters, and inspiring story.And the adventurous journey, <br/>
+    the vibrant musical numbers, the strong cultural representation.</p>
+</div>  
+
+<div class="video-container" >
+    <h3>Descendant of The Sun</h3>
+        <video controls id="first-video">
+            <source src="../assets/video/Descendants of the Sun.mp4" type="video/mp4">
+        </video>
+    <p>One of a the K-Drama that touch my feeling and my emotion because of the story</p>
+</div>
+    <hr>
+    <p style="font-size: 20px; padding: 0px; margin: 0px;">******** Created by: Prince Emz @ 2024 ********</p>
+</body>
+</html>
